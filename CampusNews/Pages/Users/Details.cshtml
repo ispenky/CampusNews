@@ -1,0 +1,55 @@
+﻿@page
+@model CampusNews.Pages.Users.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">Details</h1>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h4 class="text-lg font-semibold text-gray-800 mb-4">User</h4>
+            <hr class="border-gray-300 mb-6">
+            <dl class="grid grid-cols-12 gap-4">
+                <dt class="col-span-2 font-semibold text-gray-600">
+                    @* @Html.DisplayNameFor(model => model.User.Email) *@
+                    邮箱
+                </dt>
+                <dd class="col-span-10 text-gray-800">
+                    @Html.DisplayFor(model => model.User.Email)
+                </dd>
+                <dt class="col-span-2 font-semibold text-gray-600">
+                    @* @Html.DisplayNameFor(model => model.User.Token) *@
+                    姓名
+                </dt>
+                <dd class="col-span-10 text-gray-800">
+                    @Html.DisplayFor(model => model.User.Token)
+                </dd>
+                <dt class="col-span-2 font-semibold text-gray-600">
+                    @* @Html.DisplayNameFor(model => model.User.TokenExpiration) *@
+                    出生日期
+                </dt>
+                <dd class="col-span-10 text-gray-800">
+                    @Html.DisplayFor(model => model.User.TokenExpiration)
+                </dd>
+            </dl>
+        </div>
+        <div class="mt-6">
+            <a href="./Edit?id=@Model.User.Id" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md mr-4">Edit</a>
+            <a href="./Index" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-md">Back to List</a>
+        </div>
+    </div>
+</body>
+
+</html>    

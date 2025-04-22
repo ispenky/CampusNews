@@ -1,0 +1,745 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\service\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\service\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\models\\newws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\models\\newws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\migrations\\campusnewscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\migrations\\campusnewscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\migrations\\20250414122348_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\migrations\\20250414122348_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\campusnews.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\campusnews.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\campusnews.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\campusnews.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\data\\campusnewscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\data\\campusnewscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\users\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\users\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|e:\\vscode\u4F5C\u4E1A\\campusnews\\campusnews\\pages\\newwss\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA9AADE-0C8F-4389-9BB1-639709398E76}|CampusNews\\CampusNews.csproj|solutionrelative:campusnews\\pages\\newwss\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Edit.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Edit.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:21:48.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T16:17:37.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:17:45.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Login.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Login.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T13:12:59.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Login.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAywGcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:13:46.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Program.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Program.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Program.cs",
+              "RelativeToolTip": "CampusNews\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:13:37.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Index.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Index.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:21:49.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Details.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Details.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:21:49.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Delete.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Delete.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:21:49.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Create.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Create.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:21:48.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\appsettings.json",
+              "RelativeDocumentMoniker": "CampusNews\\appsettings.json",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\appsettings.json",
+              "RelativeToolTip": "CampusNews\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-21T05:27:20.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Service\\LoginService.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Service\\LoginService.cs",
+              "RelativeToolTip": "CampusNews\\Service\\LoginService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAzwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:09:44.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Service\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Service\\IEmailSender.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Service\\IEmailSender.cs",
+              "RelativeToolTip": "CampusNews\\Service\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:05:41.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Service\\EmailSender.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Service\\EmailSender.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Service\\EmailSender.cs",
+              "RelativeToolTip": "CampusNews\\Service\\EmailSender.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:06:03.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Error.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Error.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T13:05:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T08:00:25.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Models\\SeedData.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Models\\SeedData.cs",
+              "RelativeToolTip": "CampusNews\\Models\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:36:42.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Models\\User.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Models\\User.cs",
+              "RelativeToolTip": "CampusNews\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:16:59.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:32:45.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Newws.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Models\\Newws.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Models\\Newws.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Models\\Newws.cs",
+              "RelativeToolTip": "CampusNews\\Models\\Newws.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:16:40.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CampusNewsContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Migrations\\CampusNewsContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Migrations\\CampusNewsContextModelSnapshot.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Migrations\\CampusNewsContextModelSnapshot.cs",
+              "RelativeToolTip": "CampusNews\\Migrations\\CampusNewsContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:04:39.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250414122348_InitialCreate.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Migrations\\20250414122348_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Migrations\\20250414122348_InitialCreate.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Migrations\\20250414122348_InitialCreate.cs",
+              "RelativeToolTip": "CampusNews\\Migrations\\20250414122348_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:23:48.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Details.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Details.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Details.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAD0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:19:22.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Delete.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Delete.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:19:22.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:30:01.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Edit.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Edit.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:19:21.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Create.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Create.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Create.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:19:21.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Index.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Index.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Index.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T12:19:22.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Privacy.cshtml",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "CampusNews\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T07:53:19.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CampusNews.csproj",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\CampusNews.csproj",
+              "RelativeDocumentMoniker": "CampusNews\\CampusNews.csproj",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\CampusNews.csproj",
+              "RelativeToolTip": "CampusNews\\CampusNews.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T12:14:45.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Create.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Create.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Create.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:19:21.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Index.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Index.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Index.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:19:22.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Edit.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Edit.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Edit.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:21:48.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Create.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Create.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Create.cshtml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA1wBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:21:48.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Index.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Index.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Index.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:21:49.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CampusNews",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\CampusNews.csproj",
+              "RelativeDocumentMoniker": "CampusNews\\CampusNews.csproj",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\CampusNews.csproj",
+              "RelativeToolTip": "CampusNews\\CampusNews.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T06:41:41.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CampusNews\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CampusNews\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T06:41:49.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "CampusNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "CampusNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAkDAAAAAAAAAABSwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T06:42:01.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "CampusNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "CampusNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAEIAAAAAAAAAAABSwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-17T07:14:05.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Edit.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Edit.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Edit.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:19:21.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CampusNewsContext.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Data\\CampusNewsContext.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Data\\CampusNewsContext.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Data\\CampusNewsContext.cs",
+              "RelativeToolTip": "CampusNews\\Data\\CampusNewsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:19:21.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Delete.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Delete.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:21:49.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Users\\Details.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Users\\Details.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Users\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:21:49.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Delete.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Delete.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:19:22.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "CampusNews\\Pages\\Newwss\\Details.cshtml.cs",
+              "ToolTip": "E:\\vscode\u4F5C\u4E1A\\CampusNews\\CampusNews\\Pages\\Newwss\\Details.cshtml.cs",
+              "RelativeToolTip": "CampusNews\\Pages\\Newwss\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:19:22.155Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

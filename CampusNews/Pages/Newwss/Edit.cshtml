@@ -1,0 +1,60 @@
+﻿@page
+@model CampusNews.Pages.Newwss.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">编辑新闻</h1>
+        <div class="bg-white p-8 rounded-lg shadow-md max-w-xl mx-auto">
+            <hr class="border-gray-300 mb-6">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-red-500 mb-4"></div>
+                <input type="hidden" asp-for="Newws.Id" />
+                <div class="mb-4">
+                    <label asp-for="Newws.Title" class="block text-gray-600 font-medium mb-1">标题</label>
+                    <input asp-for="Newws.Title" class="form-input w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200" />
+                    <span asp-validation-for="Newws.Title" class="text-red-500 text-sm"></span>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="Newws.ReleaseDate" class="block text-gray-600 font-medium mb-1">发布时间</label>
+                    <input asp-for="Newws.ReleaseDate" class="form-input w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200" />
+                    <span asp-validation-for="Newws.ReleaseDate" class="text-red-500 text-sm"></span>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="Newws.Genre" class="block text-gray-600 font-medium mb-1">新闻类型</label>
+                    <input asp-for="Newws.Genre" class="form-input w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200" />
+                    <span asp-validation-for="Newws.Genre" class="text-red-500 text-sm"></span>
+                </div>
+                <div class="mb-6">
+                    <label asp-for="Newws.NewsDetails" class="block text-gray-600 font-medium mb-1">新闻详情</label>
+                    <input asp-for="Newws.NewsDetails" class="form-input w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200" />
+                    <span asp-validation-for="Newws.NewsDetails" class="text-red-500 text-sm"></span>
+                </div>
+                <div class="flex justify-center">
+                    <input type="submit" value="保存" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-colors duration-300" />
+                </div>
+            </form>
+        </div>
+        <div class="flex justify-center mt-6">
+            <a asp-page="./Index" class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-md transition-colors duration-300">
+                <i class="fas fa-arrow-left mr-2"></i> 返回
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

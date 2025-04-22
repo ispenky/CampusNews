@@ -1,0 +1,126 @@
+﻿@page
+@model CampusNews.Pages.Newwss.CreateModel
+
+@{
+    ViewData["Title"] = "发布新闻";
+    // 添加Bootstrap CSS和自定义样式
+    Layout = "_Layout"; // 假设使用了布局页，可根据实际情况调整
+}
+
+<style>
+    /* 自定义样式 */
+    .news-form-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+        font-weight: 500;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    }
+
+    .btn-primary {
+        background-color: #4285f4;
+        border-color: #4285f4;
+        padding: 10px 30px;
+        font-weight: 600;
+    }
+
+    .btn-primary:hover {
+        background-color: #357ae8;
+        border-color: #357ae8;
+    }
+
+    .back-link {
+        color: #4285f4;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    .back-link:hover {
+        color: #2965d1;
+        text-decoration: underline;
+    }
+</style>
+
+<div class="news-form-container">
+    <h1 class="mb-4" style="color: #2c3e50; text-align: center;">
+        <i class="fas fa-newspaper"></i> 发布新闻
+    </h1>
+
+    <hr class="my-4" style="border-color: #e0e0e0;">
+
+    <form method="post" class="row g-3">
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" asp-for="Newws.Title" class="form-control" placeholder="请输入新闻标题">
+                <label class="form-label" for="Newws_Title">新闻标题</label>
+                <span asp-validation-for="Newws.Title" class="text-danger small"></span>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="datetime-local" asp-for="Newws.ReleaseDate" class="form-control">
+                <label class="form-label" for="Newws_ReleaseDate">发布时间</label>
+                <span asp-validation-for="Newws.ReleaseDate" class="text-danger small"></span>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="text" asp-for="Newws.Genre" class="form-control" placeholder="例如：校园活动/学术讲座">
+                <label class="form-label" for="Newws_Genre">新闻类型</label>
+                <span asp-validation-for="Newws.Genre" class="text-danger small"></span>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="form-floating">
+                <textarea asp-for="Newws.NewsDetails" class="form-control" style="height: 200px;" placeholder="请输入新闻详细内容"></textarea>
+                <label class="form-label" for="Newws_NewsDetails">新闻内容</label>
+                <span asp-validation-for="Newws.NewsDetails" class="text-danger small"></span>
+            </div>
+        </div>
+
+        <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary mt-3">
+                <i class="fas fa-paper-plane"></i> 发布新闻
+            </button>
+        </div>
+    </form>
+
+    <div class="mt-4 text-center">
+        <a asp-page="Index" class="back-link">
+            <i class="fas fa-angle-left"></i> 返回新闻列表
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script>
+            flatpickr('input[type="datetime-local"]', {
+                locale: 'zh-CN',
+                dateFormat: 'Y-m-d H:i',
+                time_24hr: true
+            });
+        </script>
+    }
+}

@@ -1,0 +1,73 @@
+﻿@page
+@model CampusNews.Pages.Users.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">创建用户</h1>
+        <h4 class="text-xl font-semibold text-gray-700 mb-6">请输入您的信息：</h4>
+        <hr class="border-gray-300 mb-6">
+        <div class="flex flex-col md:flex-row">
+            <div class="w-full md:w-1/3 bg-white p-6 rounded-lg shadow-md">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-red-500 mb-4"></div>
+                    <div class="mb-4">
+                        <label for="User_Email" class="block text-gray-700 text-sm font-bold mb-2">电子邮箱</label>
+                        <input id="User_Email" asp-for="User.Email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+                        <span asp-validation-for="User.Email" class="text-red-500 text-xs italic"></span>
+                    </div>
+                    <div class="mb-4">
+                        <label for="User_Token" class="block text-gray-700 text-sm font-bold mb-2">姓名</label>
+                        <input id="User_Token" asp-for="User.Token" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+                        <span asp-validation-for="User.Token" class="text-red-500 text-xs italic"></span>
+                    </div>
+                    <div class="mb-4">
+                        <label for="User_TokenExpiration" class="block text-gray-700 text-sm font-bold mb-2">出生年月</label>
+                        <input id="User_TokenExpiration" asp-for="User.TokenExpiration" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+                        <span asp-validation-for="User.TokenExpiration" class="text-red-500 text-xs italic"></span>
+                    </div>
+                    <div class="mt-4">
+                        <input type="submit" value="Create" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        @if (Model.Message != null)
+        {
+            <div class="mt-6 bg-green-100 border border-green-400 text-green-700 p-4 rounded">
+                @Model.Message
+            </div>
+        }
+        <div class="mt-6">
+            <a href="Index" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back to List</a>
+        </div>
+    </div>
+    <script>
+        // 自定义验证逻辑
+        $.validator.addMethod('jluemail', function (value) {
+            return /@("@")mails\.jlu\.edu\.cn$/i.test(value);
+        });
+        $("form").validate({
+            rules: {
+                Email: { jluemail: true }
+            },
+            messages: {
+                Email: { jluemail: "请使用吉林大学邮箱" }
+            }
+        });
+    </script>
+</body>
+</html>

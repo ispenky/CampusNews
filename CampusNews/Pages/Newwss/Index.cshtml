@@ -1,0 +1,79 @@
+﻿@page "{id:int?}"
+@model CampusNews.Pages.Newwss.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">校园新闻</h1>
+        <div class="flex justify-end mb-4">
+            <a asp-page="Create" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-colors duration-300">
+                <i class="fas fa-plus mr-2"></i> 发布新闻
+            </a>
+        </div>
+        <form class="bg-white p-6 rounded-lg shadow-md mb-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
+            <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2">
+                <label class="text-gray-600 font-medium" for="NewsGenre">类型:</label>
+                <select asp-for="NewsGenre" asp-items="Model.Genres" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2">
+                <label class="text-gray-600 font-medium" for="SearchString">关键字:</label>
+                <input type="text" asp-for="SearchString" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+            </div>
+            <input type="submit" value="筛选" class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md transition-colors duration-300">
+        </form>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <table class="table-auto w-full">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2 text-left text-gray-600 font-medium">标题</th>
+                        <th class="px-4 py-2 text-left text-gray-600 font-medium">发布时间</th>
+                        <th class="px-4 py-2 text-left text-gray-600 font-medium">类型</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Newws)
+                    {
+                        <tr>
+                            <td class="px-4 py-2 border-t border-gray-300">@Html.DisplayFor(modelItem => item.Title)</td>
+                            <td class="px-4 py-2 border-t border-gray-300">@Html.DisplayFor(modelItem => item.ReleaseDate)</td>
+                            <td class="px-4 py-2 border-t border-gray-300">@Html.DisplayFor(modelItem => item.Genre)</td>
+                            <td class="px-4 py-2 border-t border-gray-300">
+                                @if (!string.IsNullOrEmpty(Model.UserEmail))
+                                {
+                                    <a asp-page="./Details" asp-route-id="@item.Id" class="text-blue-600 hover:text-blue-700 mr-2">
+                                        <i class="fas fa-info-circle mr-1"></i> 新闻详情
+                                    </a>
+                                    <a asp-page="./Edit" asp-route-id="@item.Id" class="text-yellow-600 hover:text-yellow-700 mx-2">
+                                        <i class="fas fa-edit mr-1"></i> 编辑
+                                    </a>
+                                    <a asp-page="./Delete" asp-route-id="@item.Id" class="text-red-600 hover:text-red-700 ml-2">
+                                        <i class="fas fa-trash-alt mr-1"></i> 删除
+                                    </a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

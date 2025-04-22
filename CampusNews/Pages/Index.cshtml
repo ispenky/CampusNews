@@ -1,0 +1,145 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/heroicons@2.0.13/outline/heroicons.min.js" as="script">
+    <!-- 异步加载脚本 -->
+    <script src="https://cdn.tailwindcss.com" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/heroicons@2.0.13/outline/heroicons.min.js" async></script>
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body class="bg-gray-100 font-sans antialiased">
+    <div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        @if (Model.UserEmail == null)
+        {
+            <!-- 卡片式布局 -->
+            <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6">
+                <!-- 动图区域 -->
+                <div class="text-center mb-6">
+                    <img src="~/images/welcome_animation.gif"
+                         alt="Welcome Animation"
+                         class="w-96 h-auto mx-auto mb-4 shadow-md rounded-lg"
+                         loading="lazy" /> <!-- 确保img标签正确闭合 -->
+                </div>
+
+                <!-- 登录/注册按钮组 -->
+                <div class="space-y-4">
+                    <a href="https://localhost:7028/Login"
+                       class="flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+                        <span class="mr-2">登录</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17l-4 4m0 0l-4-4m4 4V3" />
+                        </svg> <!-- 直接使用SVG图标，避免hero - icon标签可能的问题 -->
+                    </a>
+
+                    <a href="https://localhost:7028/Users/Create"
+                       class="flex items-center justify-center w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+                        <span class="mr-2">注册</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.35-1.85L17 14M5 18h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg> <!-- 直接使用SVG图标，避免hero - icon标签可能的问题 -->
+                    </a>
+                </div>
+
+                <!-- 校徽区域（下移并增加分隔线） -->
+                <div class="mt-8 pt-4 border-t border-gray-200 text-center">
+                    <img src="~/images/jlu_logo.jpg"
+                         alt="吉林大学 校徽"
+                         class="h-16 w-auto mx-auto mb-2 border rounded-md shadow-sm" /> <!-- 确保img标签正确闭合 -->
+                    <p class="text-sm text-gray-500">吉林大学 © 2025</p> <!-- 增加版权信息 -->
+                </div>
+            </div>
+        }
+        else
+        {
+            <!-- 已登录用户界面优化 -->
+            <div class="text-center">
+                <div class="mb-6">
+                    <h1 class="text-3xl font-bold text-gray-800 mb-2">
+                        欢迎回来，<span class="text-blue-600">@Model.UserEmail</span>
+                    </h1>
+                    <p class="text-gray-600">用户ID：<span class="font-medium">@Model.UserId</span></p>
+                </div>
+
+                <!-- 按钮组横向排列 -->
+                @* <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4"> *@
+                @*     <a href="/Users/Details?id=@Model.UserId" *@
+                @*        class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-300"> *@
+                @*         查看个人信息 *@
+                @*         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> *@
+                @*             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2m12 0v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2m12 0V9a2 2 0 00-2-2H8a2 2 0 00-2 2v12" /> *@
+                @*         </svg> *@
+                @*     </a> *@
+
+                @*     <a href="/Users/Edit?id=@Model.UserId" *@
+                @*        class="bg-yellow-400 hover:bg-yellow-500 text-gray-800 px-5 py-3 rounded-md transition duration-300"> *@
+                @*         修改信息 *@
+                @*         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> *@
+                @*             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /> *@
+                @*         </svg> *@
+                @*     </a> *@
+
+                @*     <a href="/Users/Delete?id=@Model.UserId" *@
+                @*        class="bg-red-500 hover:bg-red-600 text-white px-5 py-3 rounded-md transition duration-300"> *@
+                @*         注销账号 *@
+                @*         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> *@
+                @*             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /> *@
+                @*         </svg> *@
+                @*     </a> *@
+
+                @*     <a asp-page="./Index" asp-route-handler="Logout" *@
+                @*        class="bg-gray-800 hover:bg-gray-900 text-white px-5 py-3 rounded-md transition duration-300"> *@
+                @*         退出登录 *@
+                @*         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> *@
+                @*             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17l-4 4m0 0l-4-4m4 4V3" /> *@
+                @*         </svg> *@
+                @*     </a> *@
+                @* </div> *@
+                <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+                    <a href="/Users/Details?id=@Model.UserId"
+                       class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-300">
+                        查看个人信息
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2m12 0v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2m12 0V9a2 2 0 00-2-2H8a2 2 0 00-2 2v12" />
+                        </svg>
+                    </a>
+
+                    <a href="/Users/Edit?id=@Model.UserId"
+                       class="bg-yellow-400 hover:bg-yellow-500 text-gray-800 px-5 py-3 rounded-md transition duration-300">
+                        修改信息
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                        </svg>
+                    </a>
+
+                    <a href="/Users/Delete?id=@Model.UserId"
+                       class="bg-red-500 hover:bg-red-600 text-white px-5 py-3 rounded-md transition duration-300">
+                        注销账号
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                        </svg>
+                    </a>
+
+                    <a asp-page="./Index" asp-route-handler="Logout"
+                       class="bg-gray-800 hover:bg-gray-900 text-white px-5 py-3 rounded-md transition duration-300">
+                        退出登录
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17l-4 4m0 0l-4-4m4 4V3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>
